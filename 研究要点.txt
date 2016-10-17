@@ -1,0 +1,29 @@
+* 确保正确执行LCP
+
+* 退化属性
+
+* 退化树/退化函数
+    泛化表
+    用户设定属性a的保留时间Ta
+        =>退化间隔δ(a)=Ta/泛化表中a的取值数目 
+
+* triggering events（time，special event 。。。）
+    δ(a)
+    
+* Life-Cycle Policies => path specification问题
+    有限状态自动机
+    树结构=>无环/单向
+
+* 系统解释、编译和执行规则
+    LCP binder->LCP Compiler
+    
+* 存储模型
+    退化效率高
+    插入效率 v.s. 查询效率
+    => fragmented eager storage
+        (退化快，插入快于clustered eager，条件查询快）
+        
+* 数据库性能
+    查询处理
+        SQL-like transaction
+    索引技术
