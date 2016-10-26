@@ -1,0 +1,44 @@
+隐私保护手段
+
+1. Access control
+1.1 Discretionary access control (DAC)
+        owner decide
+1.2 Mandatory access control (MAC)
+        level of trust
+1.3 Role-based access control (RBAC)
+        system decide a role which is a set of permission, then asign a user a role
+1.4 Purposed-based access control (PBAC) 
+        system determine which purpose the resources can be accessed for
+        
+2. Platform for Privacy Preferences (P3P)
+    W3C develops 
+    browsers collect information based on its policy against users' policy
+    limitation: not enforcing
+    
+3. Hippocratic Databases
+    uses some privacy metadata tables
+
+4. Anonymity
+    k-anonymity using generalization and suppression
+    
+5. A Life-Cycle Policy (LCP) Model
+    deterministic finite automato
+    
+    
+实现：
+    [policy binder] close or even in Context Acquisition Devices
+        associate sensed context with corresponding user-defined LCP, regulating its life cycle.
+    [policy compiler] at the Component
+        translates the LCP policy into a language
+    [component] 
+        managing the context life cycle following the LCP
+
+MultiUse
+privacy-enabled, alse privacy-enforced
+    should prevent from changing LCPs => cryptography or secure hardware
+prevent continuously query in order to obtaon all accurate history
+distrubution:
+    event broadcast. difficult and reveal info.
+Querying Multi-Accuracy Data 
+One-Way Data Degradation vs. Dynamic Computation
+Static vs. Dynamic Life-Cycle Models 
